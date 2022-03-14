@@ -5,8 +5,12 @@ const Kitchen = () => {
   return ( 
     <>
       <h1>Kitchen</h1>
-      <Oven />
-      <Sink />
+      <div>
+        <Oven />
+      </div>
+      <div>
+        <Sink />
+      </div>
     </>
   );
 }
