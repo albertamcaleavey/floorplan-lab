@@ -12,24 +12,23 @@ const FloorPlan = () => {
         <Kitchen />
       </div>
       <div>
-        <LivingRoom />
+        <Bedroom bedNum ={1}/>
       </div>
       <div>
-        <Bedroom bedNum ={1}/>
+        <Bath size = 'Half'/>
+      </div>
+      <div>
+        <LivingRoom />
       </div>
       <div>
         <Bedroom bedNum ={2}/>
       </div>
       <div>
+        <Bath size = 'Full'/>
+      </div>
+      <div>
         <Bedroom bedNum ={3}/>
       </div>
-      <div>
-        <Bath size = 'full'/>
-      </div>
-      <div>
-        <Bath size = 'half'/>
-      </div>
-      
     </>
    );
 }
