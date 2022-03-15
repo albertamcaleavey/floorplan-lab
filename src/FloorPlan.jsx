@@ -5,15 +5,15 @@ import Bath from "./Bath";
 
 const FloorPlan = () => {
   return ( 
-    <>
-        <Kitchen />
+    <div>
+      <Kitchen />
         <Bedroom bedNum ={1}/>
         <Bath size = 'Half'/>
         <LivingRoom />
         <Bedroom bedNum ={2}/>
         <Bath size = 'Full'/>
         <Bedroom bedNum ={3}/>
-    </>
+    </div>
    );
 }
  
