@@ -1,8 +1,8 @@
 const Sink = () => {
   return ( 
-    <>
+    <div>
       <h2>Sink</h2>
-    </>
+    </div>
    );
 }
  

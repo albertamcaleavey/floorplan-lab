@@ -1,8 +1,8 @@
 const Oven = () => {
   return ( 
-    <>
+    <div>
       <h2>Oven</h2>
-    </>
+    </div>
    );
 }
  
